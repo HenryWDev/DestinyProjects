@@ -1,0 +1,174 @@
+body {
+  background-color: #00001C;
+  color: white;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  background-color: #0B1D51;
+  border: 2px solid #143594;
+  width: 30vw;
+  height: 20vh;
+
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  display: block;
+  position: relative;
+  top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -35%);
+
+margin: 0;
+  text-align: center;
+  font-size: 28px;
+  padding: 50px 0 50px;
+
+
+  opacity: 1;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #143594; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#canvas1 {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: radial-gradient(#0B1D51, #050d24);
+}
+
+#container {
+  position: relative;
+}
+
+#container canvas, #overlay {
+  position: fixed;
+}
+
+
+.grid-container {
+  background-color: black;
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  width: 100vw;
+  height: 60vh;
+  opacity: 0.9;
+}
+
+.grid-container > div {
+  background-color: #0B1D51;
+  border: 2px solid #143594;
+  width: 30vw;
+  height: 20vh;
+  padding: 0px 0px;
+
+}
+
+.grid-item {
+  display: block;
+  text-align: center;
+  opacity: 0.9;
+  transition: 0.4s;
+
+}
+
+.grid-item:hover {
+  display: block;
+  text-align: center;
+  opacity: 1;
+
+}
+
+.header {
+  font-family: "Papyrus";
+  text-align: center;
+  font-size: 50px;
+  padding: 15px;
+  width: 99vw;
+  height: 15vh;
+}
+
+
+.bottom {
+  text-align: center;
+  width: 99vw;
+  height: 15vh;
+  padding: 50px, 5px;
+
+}
+
+.top-left-image{
+  position:relative;
+  max-width:100%;
+  max-height:100%;
+  float:left;
+  opacity: 0.9;
+  object-fit: cover;
+
+}
+
+.left-image{
+  position:relative;
+  max-width:100%;
+  height:100%;
+  float:left;
+  opacity: 0.9;
+  object-fit: cover;
+
+}
+
+.top-right-image{
+  position:relative;
+  max-width:100%;
+  max-height:100%;
+  float:right;
+  opacity: 0.9;
+}
+
+.hide {
+  display: none;
+}

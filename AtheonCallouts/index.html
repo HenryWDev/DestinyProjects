@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Atheon Callouts
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <h1> Atheon callout generator </h1>
+    <div class="left">
+     <button class="button" onclick="window.location='/';">Home</button>
+
+     <p>Copy and paste the image to share it with your raid crew!</p>
+
+     <p>Generate new callouts creates a new image from the selection of callouts</p>
+
+     <p>Generate new chaos callouts gets a callout from any set of callouts, use at your own risk :)</p>
+     <button class="button" onclick="newImage()">Generate new callouts</button>
+
+     <button class="button" onclick="newChaosImage()">Generate new chaos callouts</button>
+
+
+   </body>
+
+   </div>
+     <img class="center"
+     style="
+               width:40%;
+               height: 90vh;
+               border: solid 1px #CCC"/>
+
+
+
+    <script src="node_modules/merge-images/dist/index.umd.js"></script>
+    <script src="scripts/MapGenerator.js"></script>
+
+
+  </body>
+</html>

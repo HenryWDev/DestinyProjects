@@ -1,0 +1,15 @@
+{
+  "name": "atheoncallouts",
+  "version": "1.0.0",
+  "description": "generates random atheon callouts",
+  "main": "index.html",
+  "dependencies": {
+    "merge-images": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
