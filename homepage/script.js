@@ -26,16 +26,13 @@ let menuState = 1;
 function hideMenu() {
   if (menuState == 1) {
     console.log("hiding");
-    document.getElementById("togglehide").classList.add("hide");
-    document.getElementById("togglehide1").classList.add("hide");
-    document.getElementById("togglehide2").classList.add("hide");
+    document.getElementById("overlay").style.display = "None"
+
     menuState = 0;
   }
   else{
     console.log("showing")
-    document.getElementById("togglehide").classList.remove("hide");
-    document.getElementById("togglehide1").classList.remove("hide");
-    document.getElementById("togglehide2").classList.remove("hide");
+    document.getElementById("overlay").style.display = "block"
     menuState = 1;
   }
 
