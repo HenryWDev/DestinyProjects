@@ -8,15 +8,16 @@ import ColumnHeader from './ColumnHeader'
 // import AddRow from './AddRow'
 
 
-const LeaderboardDisplay = ({colourblindMode, leaderboardInfo, gunInfo, permittedPlayers, displayAllScores}) => {
+const LeaderboardDisplay = ({devMode, colourblindMode, leaderboardInfo, gunInfo, permittedPlayers, displayAllScores}) => {
 
   return (
     <div>
 
       <Table >
 
-        <ColumnHeader gunInfo={gunInfo}/>
+        <ColumnHeader devMode={devMode} gunInfo={gunInfo}/>
         <ColumnBody
+          devMode={devMode}
           colourblindMode={colourblindMode}
           leaderboardInfo={leaderboardInfo}
           gunInfo={gunInfo}

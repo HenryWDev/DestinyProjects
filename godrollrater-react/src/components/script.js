@@ -2,23 +2,9 @@ var api_key = '0a1471885265447e9b9c2d23c50f285c';
 var baseLink = "https://www.bungie.net"
 var apiLink = "https://3gmks9uzn3.execute-api.eu-west-2.amazonaws.com/default/Leaderboard"
 var sortedParsedInfo = [];
-var numOfGuns = 1;
 var access_token = null;
 var membership_id = null;
 var membership_type = null;
-var gunHashList = [304659313, 4255586669, 1946491241, 3745990145, 852228780, 1987769101, 4248569242, 3616586446,821154603, 1119734784, 681067419, 4156253727,2448907086, 1481892490, 1216319404, 4095896073, 3460122497]
-var numOfRowsToDisplayInput = document.getElementById("numOfRowsPerGun");
-var table = document.getElementById("rollBoard");
-var authButton = document.getElementById("authenticateButton")
-var alertBox = document.getElementById("alertBox")
-var loading = document.getElementById("loading")
-var loadingText = document.getElementById("loadingText")
-var colourblinddisplay = document.getElementById("colourblinddisplay")
-var noncolourblinddisplay = document.getElementById("noncolourblinddisplay")
-var displayNoOfGodrolls = document.getElementById("rollspoints")
-var apiCallRolls = {}
-var initialLoadComplete = false;
-var colourblindMode = false;
 
 
 // function start
@@ -632,41 +618,3 @@ async function authenticate(code){
   return data;
 
 }
-
-
-// when the value in the number of rows form changes
-numOfRowsToDisplayInput.oninput = () => {
-  // gets the new value
-  if (numOfRowsToDisplayInput.value === "") {
-    numOfGuns = 1;
-  }
-  else {
-    numOfGuns = numOfRowsToDisplayInput.value;
-  }
-
-  // only runs if the initial roll evaluation is complete
-  if (initialLoadComplete){
-    table.innerHTML = "";
-
-    displayRows()
-  }
-}
-
-flexSwitchCheckDefault.oninput = () => {
-  if (flexSwitchCheckDefault.checked) {
-    colourblinddisplay.style.display = "block"
-    noncolourblinddisplay.style.display = "none"
-    colourblindMode = true;
-  }
-  else {
-    colourblinddisplay.style.display = "none"
-    noncolourblinddisplay.style.display = "block"
-    colourblindMode = false;
-  }
-  table.innerHTML = "";
-  displayRows();
-}
-
-
-flexSwitchCheckDefault.checked = false
-main();

@@ -12,6 +12,7 @@ function App() {
   const [currentLeaderboardInfo, setCurrentLeaderboardInfo]
                                               = useState()
   const [leaderboardInfo, setLeaderboardInfo] = useState()
+  const [devMode, setDevMode]                 = useState()
   const [currentGunInfo, setCurrentGunInfo]   = useState()
   const [gunInfo, setGunInfo]                 = useState()
   const [isLoaded, setIsLoaded]               = useState(false)
@@ -31,6 +32,7 @@ function App() {
     "4611686018484075688",//  WeirdNoodle
     "4611686018497753585",//  FtpApoc
     "4611686018482875471",//  Tweety
+    "4611686018486567832",//  Vulcan 
   ])
 
   useEffect(() => {
@@ -42,7 +44,10 @@ function App() {
     setCurrentGunInfo(response[1])
     setGunInfo(response[1])
     setIsLoaded(true)
-
+    let output = {}
+    output["users"] = response[0]
+    output["GunInfo"] = response[1]
+    console.log("current: ", output)
     })
   }, [])
 
@@ -64,6 +69,7 @@ function App() {
       <Header
         changeCBMode={() => setColourblindMode(!colourblindMode)}
         changeDisplayMode={() => setDisplayAllScores(!displayAllScores)}
+        changeDebugMode={() => setDevMode(!devMode)}
         SelectLeaderboard={SelectLeaderboard}
 
       />
@@ -74,6 +80,7 @@ function App() {
                       gunInfo={gunInfo}
                       permittedPlayers={permittedPlayers}
                       displayAllScores={displayAllScores}
+                      devMode={devMode}
                     />}
     </div>
   );

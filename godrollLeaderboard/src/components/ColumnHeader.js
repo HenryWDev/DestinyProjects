@@ -1,6 +1,6 @@
 import './style.css'
 
-const ColumnHeader = ({gunInfo}) => {
+const ColumnHeader = ({devMode, gunInfo}) => {
   console.log(gunInfo)
 
   return (
@@ -14,6 +14,12 @@ const ColumnHeader = ({gunInfo}) => {
       <th key="headerTotalPoints">
         Total Points
       </th>
+
+      {devMode &&
+        <th key="headerDevMode">
+          Dev Info 
+        </th>
+      }
 
       {Object.entries(gunInfo).map(([key, info]) => (
         <th key={key}>

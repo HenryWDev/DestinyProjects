@@ -51,18 +51,27 @@ async function main(){
   // loads each row one at a time
   for(var player in players){
     var total_score = 0;
-
-    for (var roll in players[player]["roll_scores"])
-    {
-      total_score += players[player]["roll_scores"][roll];
+    var total_roll_score = 0;
+    if (typeof players[player]["roll_scores"]["304659313"] == "object"){
+      for (let roll in players[player]["roll_scores"])
+      {
+        total_score += players[player]["roll_scores"][roll][0];
+        total_roll_score += players[player]["roll_scores"][roll][1];
+        players[player]["roll_scores"][roll] = players[player]["roll_scores"][roll][0]
+      }
     }
-    ordered_players.push({"total_score": total_score, 'player_name': displayNames[player], "roll_scores": players[player]["roll_scores"], "player_hash": player})
+    else {
+      for (let roll in players[player]["roll_scores"])
+      {
+        total_score += players[player]["roll_scores"][roll];
+      }
+      total_roll_score = 0;
+    }
+
+
+    ordered_players.push({"total_roll_score": total_roll_score, "total_score": total_score, 'player_name': displayNames[player], "roll_scores": players[player]["roll_scores"], "player_hash": player})
   }
-
-
-
   return ordered_players
-
 }
 
 
@@ -85,6 +94,11 @@ async function makeAPICall(bungieCall, link) {
 
 export default async function getLeaderboard(){
   let returnedLeaderboardInfo = await main()
+
+  returnedLeaderboardInfo.sort(function(first, second) {
+    return second.total_roll_score - first.total_roll_score;
+  });
+
   returnedLeaderboardInfo.sort(function(first, second) {
     return second.total_score - first.total_score;
   });
