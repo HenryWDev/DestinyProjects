@@ -1,837 +1,1674 @@
 {
   "304659313": {
-    "perk_1": {
-      "Volatile Launch": 0,
-      "Confined Launch": 0,
-      "Countermass": 0,
-      "Hard Launch": 4,
-      "Linear Compensator": 2,
-      "Quick Launch": 4,
-      "Smart Drift Control": 2
-    },
-    "perk_2": {
-      "Blinding Grenades": 5,
-      "Proximity Grenades": 1,
-      "Spike Grenades": 5,
-      "High-Velocity Rounds": 2,
-      "Implosion Rounds": 1,
-      "Concussion Grenades": 2
-    },
-    "perk_3": {
-      "Field Prep": 1,
-      "Slideshot": 5,
-      "Surplus": 1,
-      "Ambitious Assassin": 5,
-      "Quickdraw": 1,
-      "Lead From Gold": 3
-    },
-    "perk_4": {
-      "Danger Zone": 0,
-      "Thresh": 0,
-      "Vorpal Weapon": 4,
-      "Demolitionist": 3,
-      "One For All": 4,
-      "Frenzy": 4
-    },
-    "masterwork": {
-      "Stability": 0,
-      "Reload": 2,
-      "Handling": 2,
-      "blast_radius": 2,
-      "projectile_speed": 3
-    },
-    "info": {
-      "Gun hash": 304659313,
-      "gun name": "Ignition code",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "volatile launch": 0,
+        "confined launch": 0,
+        "countermass": 0,
+        "hard launch": 4,
+        "linear compensator": 2,
+        "quick launch": 4,
+        "smart drift control": 2
+      },
+      "perk_2": {
+        "blinding grenades": 5,
+        "proximity grenades": 1,
+        "spike grenades": 5,
+        "high-velocity rounds": 2,
+        "implosion rounds": 1,
+        "concussion grenades": 2
+      },
+      "perk_3": {
+        "field prep": 3,
+        "slideshot": 5,
+        "surplus": 1,
+        "ambitious assassin": 5,
+        "quickdraw": 1,
+        "lead from gold": 3
+      },
+      "perk_4": {
+        "danger zone": 0,
+        "thresh": 0,
+        "vorpal weapon": 5,
+        "demolitionist": 5,
+        "one for all": 4,
+        "frenzy": 4
+      },
+      "masterwork": {
+        "stability": 0,
+        "reload": 3,
+        "handling": 2,
+        "blast_radius": 3,
+        "projectile_speed": 4
+      },
+      "info": {
+        "gun hash": 304659313,
+        "gun name": "ignition code",
+        "current season": true,
+        "activity type": "pve"
+      }
     }
   },
-  "681067419": {
-    "perk_1": {
-      "Arrowhead Brake": 3,
-      "Chambered Compensator": 1,
-      "Corkscrew Rifling": 4,
-      "Extended Barrel": 5,
-      "Fluted Barrel": 2,
-      "Full Bore": 4,
-      "Hammer-Forged Rifling": 4,
-      "Polygonal Rifling": 2,
-      "Smallbore": 5
-    },
-    "perk_2": {
-      "Accurized Rounds": 3,
-      "Appended Mag": 3,
-      "Tactical Mag": 5,
-      "Extended Mag": 4,
-      "Steady Rounds": 1,
-      "Alloy Magazine": 1,
-      "Flared Magwell": 3
-    },
-    "perk_3": {
-      "Subsistence": 4,
-      "Moving Target": 0,
-      "Rapid Hit": 5,
-      "Heating Up": 3,
-      "Bottomless Grief": 2,
-      "Surplus": 0
-    },
-    "perk_4": {
-      "Adrenaline Junkie": 0,
-      "Box Breathing": 0,
-      "Explosive Payload": 5,
-      "Wellspring": 0,
-      "One For ALL": 3,
-      "Firefly": 5
-    },
-    "masterwork": {
-      "Stability ": 2,
-      "Range": 3,
-      "Handling": 1,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 681067419,
-      "gun name": "Hung Jury (Adept)",
-      "current season": true
+  "432476743": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 0,
+        "chambered compensator": 0,
+        "corkscrew rifling": 5,
+        "extended barrel": 3,
+        "fluted barrel": 3,
+        "full bore": 4,
+        "hammer-forged rifling": 5,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "extended mag": 2,
+        "alloy magazine": 1,
+        "appended mag": 3,
+        "armor-piercing rounds": 3,
+        "high-caliber rounds": 2,
+        "ricochet rounds": 3,
+        "flared magwell": 2,
+        "light mag": 4
+      },
+      "perk_3": {
+        "subsistence": 2,
+        "quickdraw": 0,
+        "overflow": 5,
+        "killing wind": 4,
+        "bottomless grief": 2,
+        "outlaw": 4
+      },
+      "perk_4": {
+        "one for all": 2,
+        "thresh": 0,
+        "unrelenting": 0,
+        "rampage": 5,
+        "rangefinder": 3,
+        "high-impact reserves": 2
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 3,
+        "handling": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 432476743,
+        "gun name": "the palindrome",
+        "current season": false,
+        "activity type": "pve",
+        "adept hash": 1481892490
+      }
+    }
+  },
+  "471518543": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 1,
+        "chambered compensator": 1,
+        "corkscrew rifling": 5,
+        "extended barrel": 3,
+        "fluted barrel": 4,
+        "full bore": 3,
+        "hammer-forged rifling": 5,
+        "polygonal rifling": 3,
+        "smallbore": 3
+      },
+      "perk_2": {
+        "accurized rounds": 1,
+        "appended mag": 4,
+        "tactical mag": 5,
+        "extended mag": 5,
+        "steady rounds": 2,
+        "alloy magazine": 2,
+        "flared magwell": 3
+      },
+      "perk_3": {
+        "surplus": 3,
+        "feeding frenzy": 4,
+        "rewind rounds": 5,
+        "subsistence": 5,
+        "demolitionist": 5,
+        "dynamic sway reduction": 2
+      },
+      "perk_4": {
+        "adrenaline junkie": 2,
+        "thresh": 2,
+        "one for all": 4,
+        "tap the trigger": 0,
+        "high-impact reserves": 3,
+        "firefly": 5
+      },
+      "masterwork": {
+        "handling": 1,
+        "reload": 4,
+        "stability": 3,
+        "range": 4
+      },
+      "info": {
+        "gun hash": 471518543,
+        "gun name": "corrective measure",
+        "current season": true,
+        "activity type": "pve",
+        "adept hash": 3796510434
+      }
+    }
+  },
+  "507038823": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 4,
+        "chambered compensator": 1,
+        "corkscrew rifling": 4,
+        "extended barrel": 3,
+        "fluted barrel": 2,
+        "full bore": 3,
+        "hammer-forged rifling": 5,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "extended mag": 4,
+        "alloy magazine": 1,
+        "appended mag": 5,
+        "armor-piercing rounds": 3,
+        "high-caliber rounds": 1,
+        "ricochet rounds": 4,
+        "flared magwell": 3,
+        "light mag": 5
+      },
+      "perk_3": {
+        "demolitionist": 5,
+        "killing wind": 2,
+        "ensemble": 4,
+        "dynamic sway reduction": 3,
+        "subsistence": 5,
+        "slideshot": 1
+      },
+      "perk_4": {
+        "osmosis": 3,
+        "adrenaline junkie": 4,
+        "frenzy": 5,
+        "one for all": 5,
+        "rangefinder": 2,
+        "adagio": 1,
+        "moving target": 2
+      },
+      "masterwork": {
+        "handling": 3,
+        "reload": 3,
+        "stability": 3,
+        "range": 5
+      },
+      "info": {
+        "gun hash": 507038823,
+        "gun name": "the last breath",
+        "current season": true,
+        "activity type": "pve"
+      }
+    }
+  },
+  "577528837": {
+    "pve": {
+      "perk_1": {
+        "smallbore": 4,
+        "arrowhead brake": 1,
+        "chambered compensator": 0,
+        "corkscrew rifling": 4,
+        "extended barrel": 1,
+        "fluted barrel": 2,
+        "full bore": 1,
+        "hammer-forged rifling": 3,
+        "polygonal rifling": 1
+      },
+      "perk_2": {
+        "appended mag": 4,
+        "accurized rounds": 2,
+        "tactical mag": 5,
+        "extended mag": 4,
+        "steady rounds": 0,
+        "alloy magazine": 2,
+        "flared magwell": 3
+      },
+      "perk_3": {
+        "firmly planted": 0,
+        "tunnel vision": 1,
+        "outlaw": 5,
+        "no distractions": 0,
+        "subsistence": 4,
+        "surplus": 3
+      },
+      "perk_4": {
+        "frenzy": 5,
+        "unrelenting": 1,
+        "thresh": 2,
+        "kill clip": 4,
+        "elemental capacitor": 2,
+        "one for all": 4
+      },
+      "masterwork": {
+        "stability": 3,
+        "range": 3,
+        "handling": 1,
+        "reload": 3
+      },
+      "info": {
+        "gun hash": 577528837,
+        "gun name": "contingency plan",
+        "current season": true,
+        "activity type": "pve"
+      }
+    }
+  },
+  "602618796": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 3,
+        "chambered compensator": 1,
+        "corkscrew rifling": 4,
+        "extended barrel": 3,
+        "fluted barrel": 2,
+        "full bore": 1,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 2
+      },
+      "perk_2": {
+        "accurized rounds": 2,
+        "appended mag": 4,
+        "tactical mag": 5,
+        "extended mag": 5,
+        "steady rounds": 0,
+        "alloy magazine": 1,
+        "flared magwell": 1
+      },
+      "perk_3": {
+        "tunnel vision": 2,
+        "surplus": 2,
+        "heating up": 4,
+        "subsistence": 5,
+        "under pressure": 1,
+        "threat detector": 3
+      },
+      "perk_4": {
+        "osmosis": 1,
+        "sympathetic arsenal": 2,
+        "rampage": 5,
+        "multikill clip": 4,
+        "eye of the storm": 0,
+        "adrenaline junkie": 2
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 5,
+        "handling": 2,
+        "reload": 3
+      },
+      "info": {
+        "gun hash": 602618796,
+        "gun name": "scathelocke",
+        "current season": true,
+        "activity type": "pve"
+      }
     }
   },
   "821154603": {
-    "perk_1": {
-      "Arrowhead Brake": 3,
-      "Chambered Compensator": 1,
-      "Corkscrew Rifling": 4,
-      "Extended Barrel": 5,
-      "Fluted Barrel": 2,
-      "Full Bore": 4,
-      "Hammer-Forged Rifling": 4,
-      "Polygonal Rifling": 2,
-      "Smallbore": 5
-    },
-    "perk_2": {
-      "Accurized Rounds": 3,
-      "Drop Mag": 1,
-      "Appended Mag": 4,
-      "Tactical Mag": 5,
-      "Extended Mag": 5,
-      "Steady Rounds": 0,
-      "Alloy Magazine": 2,
-      "Flared Magwell": 3
-    },
-    "perk_3": {
-      "Tap The Trigger": 1,
-      "Subsistence": 5,
-      "Zen Moment": 4,
-      "Field Prep": 1,
-      "Auto-Loading Holster": 3
-    },
-    "perk_4": {
-      "Rampage": 5,
-      "Kill Clip": 2,
-      "Multikill Clip": 3,
-      "Demolitionist": 3,
-      "Swashbuckler": 3
-    },
-    "masterwork": {
-      "Stability": 2,
-      "Range": 3,
-      "Handling": 1,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 821154603,
-      "gun name": "Gnawing Hunger",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 3,
+        "chambered compensator": 1,
+        "corkscrew rifling": 4,
+        "extended barrel": 5,
+        "fluted barrel": 2,
+        "full bore": 4,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "accurized rounds": 3,
+        "drop mag": 1,
+        "appended mag": 4,
+        "tactical mag": 5,
+        "extended mag": 5,
+        "steady rounds": 0,
+        "alloy magazine": 2,
+        "flared magwell": 3
+      },
+      "perk_3": {
+        "tap the trigger": 1,
+        "subsistence": 5,
+        "zen moment": 4,
+        "field prep": 1,
+        "auto-loading holster": 3
+      },
+      "perk_4": {
+        "rampage": 5,
+        "kill clip": 2,
+        "multikill clip": 3,
+        "demolitionist": 3,
+        "swashbuckler": 3
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 3,
+        "handling": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 821154603,
+        "gun name": "gnawing hunger",
+        "current season": false,
+        "activity type": "pve"
+      }
     }
   },
-  "852228780": {
-    "perk_1": {
-      "Arrowhead Brake": 2,
-      "Chambered Compensator": 1,
-      "Corkscrew Rifling": 2,
-      "Extended Barrel": 1,
-      "Fluted Barrel": 3,
-      "Full Bore": 2,
-      "Hammer-Forged Rifling": 3,
-      "Polygonal Rifling": 1,
-      "Smallbore": 3
-    },
-    "perk_2": {
-      "Accurized Rounds": 1,
-      "Drop Mag": 0,
-      "Appended Mag": 5,
-      "Tactical Mag": 2,
-      "Extended Mag": 4,
-      "Steady Rounds": 0,
-      "Alloy Magazine": 1,
-      "Flared Magwell": 1
-    },
-    "perk_3": {
-      "Triple Tap": 5,
-      "Bottomless Grief": 2,
-      "Lead From Gold": 3,
-      "Snapshot Sights": 2,
-      "Clown Cartridge": 3,
-      "Killing Wind": 0
-    },
-    "perk_4": {
-      "Adrenaline Junkie": 0,
-      "Explosive Payload": 2,
-      "Vorpal Weapon": 4,
-      "High-Impact Reserves": 4,
-      "Demolitionist": 3,
-      "Dragonfly": 2
-    },
-    "masterwork": {
-      "Stability": 2,
-      "Range": 3,
-      "Handling": 2,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 852228780,
-      "gun name": "Uzume RR4 (Adept)",
-      "current season": true
+  "829330711": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 1,
+        "chambered compensator": 1,
+        "corkscrew rifling": 2,
+        "extended barrel": 3,
+        "fluted barrel": 1,
+        "full bore": 0,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 0,
+        "smallbore": 4
+      },
+      "perk_2": {
+        "accurized rounds": 3,
+        "appended mag": 3,
+        "tactical mag": 3,
+        "extended mag": 0,
+        "steady rounds": 1,
+        "alloy magazine": 2,
+        "flared magwell": 4
+      },
+      "perk_3": {
+        "rangefinder": 4,
+        "tunnel vision": 2,
+        "subsistence": 5,
+        "pulse monitor": 1,
+        "killing wind": 4,
+        "under pressure": 2
+      },
+      "perk_4": {
+        "snapshot sights": 0,
+        "surrounded": 4,
+        "swashbuckler": 5,
+        "demolitionist": 5,
+        "harmony": 2,
+        "headstone": 0,
+        "iron reach": 3
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 5,
+        "handling": 2,
+        "reload": 3
+      },
+      "info": {
+        "gun hash": 829330711,
+        "gun name": "peacebond",
+        "current season": true,
+        "activity type": "pve"
+      }
     }
   },
   "1119734784": {
-    "perk_1": {
-      "Arrowhead Brake": 3,
-      "Chambered Compensator": 1,
-      "Corkscrew Rifling": 4,
-      "Extended Barrel": 5,
-      "Fluted Barrel": 2,
-      "Full Bore": 4,
-      "Hammer-Forged Rifling": 4,
-      "Polygonal Rifling": 2,
-      "Smallbore": 5
-    },
-    "perk_2": {
-      "Accurized Rounds": 3,
-      "Drop Mag": 1,
-      "Appended Mag": 4,
-      "Tactical Mag": 5,
-      "Extended Mag": 5,
-      "Steady Rounds": 0,
-      "Alloy Magazine": 2,
-      "Flared Magwell": 3
-    },
-    "perk_3": {
-      "Heating Up": 3,
-      "Moving Target": 1,
-      "Feeding Frenzy": 4,
-      "Tunnel Vision": 3,
-      "Dynamic Sway Reduction": 2,
-      "Subsistence": 5
-    },
-    "perk_4": {
-      "Adrenaline Junkie": 0,
-      "Tap the Trigger": 0,
-      "Kill Clip": 3,
-      "Rampage": 5,
-      "Thresh": 2,
-      "Wellspring": 1
-    },
-    "masterwork": {
-      "Stability": 2,
-      "Range": 4,
-      "Handling": 1,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 1119734784,
-      "gun name": "Chroma Rush",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 3,
+        "chambered compensator": 1,
+        "corkscrew rifling": 4,
+        "extended barrel": 5,
+        "fluted barrel": 2,
+        "full bore": 4,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "accurized rounds": 3,
+        "drop mag": 1,
+        "appended mag": 4,
+        "tactical mag": 5,
+        "extended mag": 5,
+        "steady rounds": 0,
+        "alloy magazine": 2,
+        "flared magwell": 3
+      },
+      "perk_3": {
+        "heating up": 3,
+        "moving target": 1,
+        "feeding frenzy": 4,
+        "tunnel vision": 3,
+        "dynamic sway reduction": 2,
+        "subsistence": 5
+      },
+      "perk_4": {
+        "adrenaline junkie": 0,
+        "tap the trigger": 0,
+        "kill clip": 3,
+        "rampage": 5,
+        "thresh": 2,
+        "wellspring": 1
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 4,
+        "handling": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 1119734784,
+        "gun name": "chroma rush",
+        "current season": false,
+        "activity type": "pve"
+      }
     }
   },
-  "1216319404": {
-    "perk_1": {
-      "Arrowhead Brake": 0,
-      "Chambered Compensator": 0,
-      "Corkscrew Rifling": 5,
-      "Extended Barrel": 3,
-      "Fluted Barrel": 3,
-      "Full Bore": 4,
-      "Hammer-Forged Rifling": 5,
-      "Polygonal Rifling": 2,
-      "Smallbore": 5
-    },
-    "perk_2": {
-      "Accurized Rounds": 3,
-      "Appended Mag": 3,
-      "Tactical Mag": 4,
-      "Extended Mag": 2,
-      "Steady Rounds": 0,
-      "Alloy Magazine": 2,
-      "Flared Magwell": 2
-    },
-    "perk_3": {
-      "Rewind Rounds": 4,
-      "Killing Wind": 2,
-      "Tunnel Vision": 2,
-      "Osmosis": 0,
-      "Thresh": 0,
-      "Explosive Payload": 4
-    },
-    "perk_4": {
-      "Eye Of The Storm": 0,
-      "Kill Clip": 3,
-      "Frenzy": 5,
-      "Opening shot": 0,
-      "Adrenaline Junkie": 0,
-      "Firefly": 5
-    },
-    "masterwork": {
-      "Stability ": 2,
-      "Range": 3,
-      "Handling": 1,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 1216319404,
-      "gun name": "Fatebringer (timelost)",
-      "current season": true
+  "1392919471": {
+    "pve": {
+      "perk_1": {
+        "fluted barrel": 2,
+        "smallbore": 3,
+        "arrowhead brake": 3,
+        "corkscrew rifling": 3,
+        "hammer-forged rifling": 1,
+        "polygonal rifling": 1,
+        "chambered compensator": 1,
+        "extended barrel": 1,
+        "full bore": 1
+      },
+      "perk_2": {
+        "tactical mag": 5,
+        "appended mag": 4,
+        "extended mag": 4,
+        "accurized rounds": 2,
+        "steady rounds": 1,
+        "alloy magazine": 1,
+        "flared magwell": 3
+      },
+      "perk_3": {
+        "surplus": 4,
+        "reconstruction": 5,
+        "outlaw": 4,
+        "killing wind": 2,
+        "zen moment": 1,
+        "under pressure": 1
+      },
+      "perk_4": {
+        "wellspring": 5,
+        "redirection": 4,
+        "high-impact reserves": 3,
+        "opening shot": 0,
+        "eye of the storm": 1,
+        "sympathetic arsenal": 3
+      },
+      "masterwork": {
+        "handling": 2,
+        "range": 2,
+        "reload": 3,
+        "stability": 2
+      },
+      "info": {
+        "gun hash": 1392919471,
+        "gun name": "trustee",
+        "current season": true,
+        "activity type": "pve"
+      }
     }
   },
-  "1481892490": {
-    "perk_1": {
-      "Arrowhead Brake": 0,
-      "Chambered Compensator": 0,
-      "Corkscrew Rifling": 5,
-      "Extended Barrel": 3,
-      "Fluted Barrel": 3,
-      "Full Bore": 4,
-      "Hammer-Forged Rifling": 5,
-      "Polygonal Rifling": 2,
-      "Smallbore": 5
-    },
-    "perk_2": {
-      "Extended Mag": 2,
-      "Alloy Magazine": 1,
-      "Appended Mag": 3,
-      "Armor-Piercing Rounds": 3,
-      "High-Caliber Rounds": 2,
-      "Richochet Rounds": 3,
-      "Flared Magwell": 2,
-      "Light Mag": 4
-    },
-    "perk_3": {
-      "Subsistence": 2,
-      "Quickdraw": 0,
-      "Overflow": 5,
-      "Killing Wind": 4,
-      "Bottomless Grief": 2,
-      "Outlaw": 4
-    },
-    "perk_4": {
-      "One For All": 2,
-      "Thresh": 0,
-      "Unrelenting": 0,
-      "Rampage": 5,
-      "Rangefinder": 3,
-      "High-Impact Reserves": 2
-    },
-    "masterwork": {
-      "Stability ": 2,
-      "Range": 3,
-      "Handling": 1,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 1481892490,
-      "gun name": "The palindrome (adept)",
-      "current season": true
+  "1399243961": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 4,
+        "chambered compensator": 2,
+        "corkscrew rifling": 5,
+        "extended barrel": 1,
+        "fluted barrel": 4,
+        "full bore": 2,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "accelerated coils": 3,
+        "enhanced battery": 1,
+        "ionized battery": 5,
+        "liquid coils": 5,
+        "particle repeater": 2,
+        "projection fuse": 4
+      },
+      "perk_3": {
+        "surplus": 3,
+        "heating up": 2,
+        "quickdraw": 2,
+        "killing wind": 1,
+        "hip-fire grip": 0,
+        "clown cartridge": 5,
+        "triple tap": 5
+      },
+      "perk_4": {
+        "celerity": 1,
+        "headstone": 1,
+        "rampage": 2,
+        "firing line": 5,
+        "adagio": 3,
+        "vorpal weapon": 5,
+        "harmony": 4
+      },
+      "masterwork": {
+        "handling": 4,
+        "reload": 4,
+        "stability": 2,
+        "range": 3,
+        "charge_time": 4
+      },
+      "info": {
+        "gun hash": 1399243961,
+        "gun name": "reed's regret",
+        "current season": true,
+        "activity type": "pve",
+        "adept hash": 2475355656
+      }
+    }
+  },
+  "1476654960": {
+    "pvp": {
+      "perk_1": {
+        "fastdraw hcs": 5,
+        "hitmark hcs": 4,
+        "truesight hcs": 4,
+        "steadyhand hcs": 3,
+        "sureshot hcs": 2,
+        "crossfire hcs": 1
+      },
+      "perk_2": {
+        "accurized rounds": 5,
+        "flared magwell": 4,
+        "steady rounds": 3,
+        "alloy magazine": 2,
+        "tactical mag": 3,
+        "appended mag": 1,
+        "extended mag": 0
+      },
+      "perk_3": {
+        "slideshot": 5,
+        "moving target": 5,
+        "tunnel vision": 4,
+        "ensemble": 3,
+        "encore": 1,
+        "demolitionist": 1
+      },
+      "perk_4": {
+        "opening shot": 5,
+        "timed payload": 4,
+        "multikill clip": 3,
+        "adagio": 0,
+        "adrenaline junkie": 0,
+        "osmosis": 0
+      },
+      "masterwork": {
+        "handling": 5,
+        "range": 5,
+        "stability": 3,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 1476654960,
+        "gun name": "judgment",
+        "current season": true,
+        "activity type": "pvp"
+      }
     }
   },
   "1946491241": {
-    "perk_1": {
-      "Volatile Launch": 0,
-      "Confined Launch": 0,
-      "Countermass": 0,
-      "Hard Launch": 4,
-      "Linear Compensator": 2,
-      "Quick Launch": 4,
-      "Smart Drift Control": 2
-    },
-    "perk_2": {
-      "Blinding Grenades": 5,
-      "Proximity Grenades": 1,
-      "Spike Grenades": 5,
-      "High-Velocity Rounds": 2,
-      "Implosion Rounds": 1,
-      "Concussion Grenades": 2
-    },
-    "perk_3": {
-      "Auto-Loading Holster": 5,
-      "Grave robber": 1,
-      "Field Prep": 1,
-      "Underdog": 0,
-      "Feeding Frenzy": 3
-    },
-    "perk_4": {
-      "Demolitionist": 5,
-      "Multikill Clip": 4,
-      "Quickdraw": 0,
-      "Swashbuckler": 2,
-      "Disruption Break": 5
-    },
-    "masterwork": {
-      "Stability": 0,
-      "Reload": 2,
-      "Handling": 2,
-      "blast_radius": 2,
-      "projectile_speed": 3
-    },
-    "info": {
-      "Gun hash": 1946491241,
-      "gun name": "Truthteller",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "volatile launch": 0,
+        "confined launch": 0,
+        "countermass": 0,
+        "hard launch": 4,
+        "linear compensator": 2,
+        "quick launch": 4,
+        "smart drift control": 2
+      },
+      "perk_2": {
+        "blinding grenades": 5,
+        "proximity grenades": 1,
+        "spike grenades": 5,
+        "high-velocity rounds": 2,
+        "implosion rounds": 1,
+        "concussion grenades": 2
+      },
+      "perk_3": {
+        "auto-loading holster": 5,
+        "grave robber": 1,
+        "field prep": 1,
+        "underdog": 0,
+        "feeding frenzy": 3
+      },
+      "perk_4": {
+        "demolitionist": 5,
+        "multikill clip": 4,
+        "quickdraw": 0,
+        "swashbuckler": 2,
+        "disruption break": 5
+      },
+      "masterwork": {
+        "stability": 0,
+        "reload": 2,
+        "handling": 2,
+        "blast_radius": 2,
+        "projectile_speed": 3
+      },
+      "info": {
+        "gun hash": 1946491241,
+        "gun name": "truthteller",
+        "current season": false,
+        "activity type": "pve"
+      }
     }
   },
-  "1987769101": {
-    "perk_1": {
-      "Arrowhead Brake": 2,
-      "Chambered Compensator": 1,
-      "Corkscrew Rifling": 2,
-      "Extended Barrel": 1,
-      "Fluted Barrel": 3,
-      "Full Bore": 2,
-      "Hammer-Forged Rifling": 3,
-      "Polygonal Rifling": 1,
-      "Smallbore": 3
+  "2065081837": {
+    "pvp": {
+      "perk_1": {
+        "arrowhead brake": 4,
+        "chambered compensator": 1,
+        "corkscrew rifling": 5,
+        "extended barrel": 2,
+        "fluted barrel": 5,
+        "full bore": 2,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 3
+      },
+      "perk_2": {
+        "accurized rounds": 5,
+        "appended mag": 1,
+        "tactical mag": 2,
+        "extended mag": 0,
+        "steady rounds": 3,
+        "alloy magazine": 3,
+        "flared magwell": 2
+      },
+      "perk_3": {
+        "triple tap": 0,
+        "bottomless grief": 1,
+        "lead from gold": 0,
+        "snapshot sights": 5,
+        "clown cartridge": 2,
+        "killing wind": 3
+      },
+      "perk_4": {
+        "adrenaline junkie": 0,
+        "explosive payload": 4,
+        "vorpal weapon": 5,
+        "high-impact reserves": 3,
+        "demolitionist": 3,
+        "dragonfly": 2
+      },
+      "masterwork": {
+        "handling": 5,
+        "reload": 2,
+        "stability": 3,
+        "range": 4
+      },
+      "info": {
+        "gun hash": 2065081837,
+        "gun name": "uzume rr4",
+        "current season": true,
+        "activity type": "pvp",
+        "adept hash": 852228780
+      }
     },
-    "perk_2": {
-      "Accurized Rounds": 1,
-      "Tactical Mag": 5,
-      "Extended Mag": 4,
-      "Steady Rounds": 0,
-      "Alloy Magazine": 0
-    },
-    "perk_3": {
-      "Quickdraw": 1,
-      "Osmosis": 0,
-      "Rewind Rounds": 5,
-      "No Distractions": 1,
-      "Moving Target": 1,
-      "Feeding Frenzy": 0
-    },
-    "perk_4": {
-      "Adrenaline Junkie": 0,
-      "Opening Shot": 0,
-      "Frenzy": 5,
-      "High-Impact Reserves": 5,
-      "Kill Clip": 2,
-      "Firefly": 2
-    },
-    "masterwork": {
-      "Stability": 1,
-      "Range": 2,
-      "Handling": 1,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 1987769101,
-      "gun name": "Praedyth's Revenge (Timelost)",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 2,
+        "chambered compensator": 1,
+        "corkscrew rifling": 2,
+        "extended barrel": 1,
+        "fluted barrel": 3,
+        "full bore": 2,
+        "hammer-forged rifling": 3,
+        "polygonal rifling": 1,
+        "smallbore": 3
+      },
+      "perk_2": {
+        "accurized rounds": 1,
+        "drop mag": 0,
+        "appended mag": 5,
+        "tactical mag": 2,
+        "extended mag": 4,
+        "steady rounds": 0,
+        "alloy magazine": 1,
+        "flared magwell": 1
+      },
+      "perk_3": {
+        "triple tap": 5,
+        "bottomless grief": 2,
+        "lead from gold": 3,
+        "snapshot sights": 2,
+        "clown cartridge": 3,
+        "killing wind": 0
+      },
+      "perk_4": {
+        "adrenaline junkie": 0,
+        "explosive payload": 2,
+        "vorpal weapon": 4,
+        "high-impact reserves": 4,
+        "demolitionist": 3,
+        "dragonfly": 2
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 3,
+        "handling": 2,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 2065081837,
+        "gun name": "uzume rr4",
+        "current season": false,
+        "activity type": "pve",
+        "adept hash": 852228780
+      }
+    }
+  },
+  "2171478765": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 0,
+        "chambered compensator": 0,
+        "corkscrew rifling": 5,
+        "extended barrel": 3,
+        "fluted barrel": 3,
+        "full bore": 4,
+        "hammer-forged rifling": 5,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "accurized rounds": 3,
+        "appended mag": 3,
+        "tactical mag": 4,
+        "extended mag": 2,
+        "steady rounds": 0,
+        "alloy magazine": 2,
+        "flared magwell": 2
+      },
+      "perk_3": {
+        "rewind rounds": 4,
+        "killing wind": 2,
+        "tunnel vision": 2,
+        "osmosis": 0,
+        "thresh": 0,
+        "explosive payload": 4
+      },
+      "perk_4": {
+        "eye of the storm": 0,
+        "kill clip": 3,
+        "frenzy": 5,
+        "opening shot": 0,
+        "adrenaline junkie": 0,
+        "firefly": 5
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 3,
+        "handling": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 2171478765,
+        "gun name": "fatebringer",
+        "current season": false,
+        "activity type": "pve",
+        "adept hash": 1216319404
+      }
     }
   },
   "2448907086": {
-    "perk_1": {
-      "Volatile Launch": 0,
-      "Confined Launch": 0,
-      "Countermass": 0,
-      "Hard Launch": 4,
-      "Linear Compensator": 2,
-      "Quick Launch": 4,
-      "Smart Drift Control": 2
-    },
-    "perk_2": {
-      "Alloy Casing": 5,
-      "Black Powder": 0,
-      "High-Velocity Rounds": 1,
-      "Implosion Rounds": 0,
-      "Impact Casing": 5
-    },
-    "perk_3": {
-      "Underdog": 0,
-      "Rangefinder": 0,
-      "Field Prep": 3,
-      "Threat Detector": 0,
-      "Auto-Loading Holster ": 5,
-      "Quickdraw": 1,
-      "Impulse Amplifier": 5,
-      "Genesis": 1,
-      "Moving Target": 0
-    },
-    "perk_4": {
-      "One For All": 0,
-      "Wellspring": 0,
-      "Thresh": 0,
-      "Unrelenting": 0,
-      "Chain Reaction": 3,
-      "Ambitious Assassin": 1,
-      "Lasting Impression": 5,
-      "Cluster Bomb": 3,
-      "Clown Cartridge": 5,
-      "Demolitionist": 3
-    },
-    "masterwork": {
-      "Stability ": 0,
-      "Handling": 2,
-      "Reload": 3,
-      "blast_radius": 2,
-      "projectile_speed": 3
-    },
-    "info": {
-      "Gun hash": 2448907086,
-      "gun name": "Royal entry",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "volatile launch": 1,
+        "confined launch": 0,
+        "countermass": 0,
+        "hard launch": 2,
+        "linear compensator": 5,
+        "quick launch": 4,
+        "smart drift control": 3
+      },
+      "perk_2": {
+        "alloy casing": 4,
+        "black powder": 2,
+        "high-velocity rounds": 3,
+        "implosion rounds": 0,
+        "impact casing": 5
+      },
+      "perk_3": {
+        "underdog": 0,
+        "rangefinder": 0,
+        "field prep": 3,
+        "threat detector": 0,
+        "auto-loading holster": 5,
+        "quickdraw": 1,
+        "impulse amplifier": 4,
+        "genesis": 1,
+        "moving target": 0
+      },
+      "perk_4": {
+        "one for all": 0,
+        "wellspring": 0,
+        "thresh": 0,
+        "unrelenting": 0,
+        "chain reaction": 3,
+        "ambitious assassin": 2,
+        "lasting impression": 5,
+        "cluster bomb": 3,
+        "clown cartridge": 5,
+        "demolitionist": 3
+      },
+      "masterwork": {
+        "stability": 0,
+        "handling": 2,
+        "reload": 3,
+        "blast_radius": 3,
+        "projectile_speed": 3
+      },
+      "info": {
+        "gun hash": 2448907086,
+        "gun name": "royal entry",
+        "current season": true,
+        "activity type": "pve"
+      }
+    }
+  },
+  "2481881293": {
+    "pve": {
+      "perk_1": {
+        "red dot micro": 3,
+        "red dot 2 moa": 3,
+        "hitmark is": 3,
+        "cleanshot is": 1
+      },
+      "perk_2": {
+        "liquid coils": 5,
+        "accelerated coils": 3,
+        "enhanced battery": 3,
+        "ionized battery": 1,
+        "particle repeater": 1,
+        "projection fuse": 2
+      },
+      "perk_3": {
+        "under pressure": 1,
+        "feeding frenzy": 3,
+        "slideways": 4,
+        "lead from gold": 3,
+        "grave robber": 3,
+        "hip-fire grip": 1
+      },
+      "perk_4": {
+        "vorpal weapon": 5,
+        "high-impact reserves": 4,
+        "swashbuckler": 4,
+        "thresh": 1,
+        "snapshot sights": 0,
+        "backup plan": 1
+      },
+      "masterwork": {
+        "range": 4,
+        "stability": 2,
+        "reload": 2,
+        "handling": 1,
+        "charge_time": 4
+      },
+      "info": {
+        "gun hash": 2481881293,
+        "gun name": "cartesian coordinate",
+        "current season": true,
+        "activity type": "pve"
+      }
+    }
+  },
+  "2496875173": {
+    "pve": {
+      "perk_1": {
+        "chambered compensator": 1,
+        "corkscrew rifling": 4,
+        "extended barrel": 3,
+        "fluted barrel": 2,
+        "full bore": 3,
+        "hammer-forged rifling": 5,
+        "polygonal rifling": 2,
+        "smallbore": 5,
+        "arrowhead brake": 4
+      },
+      "perk_2": {
+        "accurized rounds": 4,
+        "appended mag": 4,
+        "tactical mag": 5,
+        "extended mag": 3,
+        "steady rounds": 2,
+        "alloy magazine": 1,
+        "flared magwell": 3
+      },
+      "perk_3": {
+        "encore": 2,
+        "tunnel vision": 2,
+        "surplus": 2,
+        "fourth time's the charm": 3,
+        "heating up": 4,
+        "feeding frenzy": 5,
+        "subsistence": 5,
+        "killing wind": 3,
+        "dynamic sway reduction": 2,
+        "zen moment": 2,
+        "outlaw": 3,
+        "tap the trigger": 1
+      },
+      "perk_4": {
+        "wellspring": 4,
+        "frenzy": 5,
+        "one for all": 4,
+        "thresh": 3,
+        "elemental capacitor": 0,
+        "adrenaline junkie": 2,
+        "demolitionist": 3,
+        "unrelenting": 1,
+        "multikill clip": 4,
+        "harmony": 4,
+        "snapshot sights": 1,
+        "rampage": 5
+      },
+      "masterwork": {
+        "handling": 2,
+        "reload": 3,
+        "stability": 3,
+        "range": 5
+      },
+      "info": {
+        "gun hash": 2496875173,
+        "gun name": "sorrow's verse",
+        "current season": true,
+        "activity type": "pve"
+      }
+    }
+  },
+  "2990047042": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 4,
+        "chambered compensator": 1,
+        "corkscrew rifling": 5,
+        "extended barrel": "",
+        "fluted barrel": 4,
+        "full bore": 1,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 4
+      },
+      "perk_2": {
+        "accurized rounds": 2,
+        "tactical mag": 4,
+        "extended mag": 5,
+        "steady rounds": 2,
+        "alloy magazine": 3
+      },
+      "perk_3": {
+        "moving target": 1,
+        "killing wind": 0,
+        "no distractions": 2,
+        "slideways": 2,
+        "lead from gold": 3,
+        "reconstruction": 5
+      },
+      "perk_4": {
+        "snapshot sights": 1,
+        "osmosis": 0,
+        "thresh": 1,
+        "recombination": 4,
+        "vorpal weapon": 5,
+        "rampage": 2
+      },
+      "masterwork": {
+        "handling": 2,
+        "reload": 4,
+        "stability": 2,
+        "range": 4
+      },
+      "info": {
+        "gun hash": 2990047042,
+        "gun name": "succession",
+        "current season": true,
+        "activity type": "pve"
+      }
+    }
+  },
+  "3184681056": {
+    "pvp": {
+      "perk_1": {
+        "full choke": 5,
+        "rifled barrel": 4,
+        "smallbore": 3,
+        "barrel shroud": 2,
+        "corkscrew rifling": 2,
+        "smoothbore": 1
+      },
+      "perk_2": {
+        "accurized rounds": 5,
+        "assault mag": 5,
+        "light mag": 4,
+        "steady rounds": 1,
+        "appended mag": 1,
+        "tactical mag": 2,
+        "extended mag": 0
+      },
+      "perk_3": {
+        "quickdraw": 5,
+        "ensemble": 3,
+        "slideshot": 4,
+        "dual loader": 1,
+        "full auto trigger system": 1,
+        "lead from gold": 0
+      },
+      "perk_4": {
+        "opening shot": 5,
+        "harmony": 4,
+        "trench barrel": 3,
+        "adagio": 1,
+        "thresh": 0,
+        "adrenaline junkie": 0
+      },
+      "masterwork": {
+        "handling": 5,
+        "range": 4,
+        "stability": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 3184681056,
+        "gun name": "fractethyst",
+        "current season": true,
+        "activity type": "pvp"
+      }
     }
   },
   "3460122497": {
-    "perk_1": {
-      "Agile Bowstring": 0,
-      "Tactile String": 2,
-      "Elastic String": 5,
-      "Flexible String": 3,
-      "High Tension String": 2,
-      "Natural String": 2,
-      "Polymer String": 4
-    },
-    "perk_2": {
-      "Carbon Arrow Shaft": 0,
-      "Compact Arrow Shaft": 2,
-      "Fiberglass Arrow Shaft": 5,
-      "Helical Fletching": 3,
-      "Natural Fletching": 0,
-      "Straight Fletching": 4
-    },
-    "perk_3": {
-      "Quickdraw": 0,
-      "Impulse Amplifier ": 3,
-      "Killing Wind": 2,
-      "Sneak Bow": 0,
-      "Hip Fire Grip": 0,
-      "Archer's Tempo": 5
-    },
-    "perk_4": {
-      "Thresh": 0,
-      "Wellspring": 0,
-      "Swashbuckler": 3,
-      "Opening Shot": 0,
-      "Sympathetic Arsenal": 3,
-      "Frenzy": 5
-    },
-    "masterwork": {
-      "Stability ": 0,
-      "Handling": 2,
-      "Reload": 0,
-      "draw_time": 5,
-      "Accuracy ": 3
-    },
-    "info": {
-      "Gun hash": 3460122497,
-      "gun name": "Imperial needle",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "agile bowstring": 0,
+        "tactile string": 2,
+        "elastic string": 5,
+        "flexible string": 3,
+        "high tension string": 2,
+        "natural string": 2,
+        "polymer string": 4
+      },
+      "perk_2": {
+        "carbon arrow shaft": 0,
+        "compact arrow shaft": 2,
+        "fiberglass arrow shaft": 5,
+        "helical fletching": 3,
+        "natural fletching": 0,
+        "straight fletching": 4
+      },
+      "perk_3": {
+        "quickdraw": 0,
+        "impulse amplifier": 3,
+        "killing wind": 2,
+        "sneak bow": 0,
+        "hip-fire grip": 0,
+        "archer's tempo": 5
+      },
+      "perk_4": {
+        "thresh": 0,
+        "wellspring": 0,
+        "swashbuckler": 3,
+        "opening shot": 0,
+        "sympathetic arsenal": 3,
+        "frenzy": 5
+      },
+      "masterwork": {
+        "stability": 0,
+        "handling": 2,
+        "reload": 0,
+        "draw_time": 5,
+        "accuracy": 3
+      },
+      "info": {
+        "gun hash": 3460122497,
+        "gun name": "imperial needle",
+        "current season": false,
+        "activity type": "pve"
+      }
+    }
+  },
+  "3472875143": {
+    "pve": {
+      "perk_1": {
+        "agile bowstring": 2,
+        "tactile string": 1,
+        "elastic string": 5,
+        "flexible string": 4,
+        "high tension string": 0,
+        "natural string": 1,
+        "polymer string": 3
+      },
+      "perk_2": {
+        "carbon arrow shaft": 0,
+        "compact arrow shaft": 5,
+        "fiberglass arrow shaft": 4,
+        "helical fletching": 1,
+        "natural fletching": 0,
+        "straight fletching": 3
+      },
+      "perk_3": {
+        "impulse amplifier": 4,
+        "sneak bow": 1,
+        "ensemble": 3,
+        "archer's tempo": 5,
+        "shoot to loot": 3,
+        "threat detector": 1
+      },
+      "perk_4": {
+        "harmony": 4,
+        "cornered": 2,
+        "demolitionist": 2,
+        "adagio": 1,
+        "dragonfly": 5,
+        "frenzy": 5
+      },
+      "masterwork": {
+        "draw_time": 5,
+        "handling": 2,
+        "stability": 0,
+        "accuracy": 2,
+        "reload": 4
+      },
+      "info": {
+        "gun hash": 3472875143,
+        "gun name": "wolftone draw",
+        "current season": true,
+        "activity type": "pve"
+      }
     }
   },
   "3616586446": {
-    "perk_1": {
-      "Arrowhead Brake": 2,
-      "Chambered Compensator": 0,
-      "Corkscrew Rifling": 3,
-      "Extended Barrel": 1,
-      "Fluted Barrel": 3,
-      "Full Bore": 2,
-      "Hammer-Forged Rifling": 2,
-      "Polygonal Rifling": 1,
-      "Smallbore": 2
-    },
-    "perk_2": {
-      "Assault Mag": 5,
-      "Appended Mag": 2,
-      "Tactical Mag": 3,
-      "Extended Mag": 1,
-      "Steady Rounds": 0,
-      "Accurized Rounds": 1,
-      "Light Mag": 3
-    },
-    "perk_3": {
-      "Hip-Fire Grip": 0,
-      "Pulse Monitor": 0,
-      "Auto-Loading Holster": 5,
-      "Slideshot": 1,
-      "Outlaw": 1
-    },
-    "perk_4": {
-      "Demolitionist": 2,
-      "Eye of the Storm": 0,
-      "Surrounded": 2,
-      "Opening Shot": 1,
-      "Vorpal Weapon": 5
-    },
-    "masterwork": {
-      "Stability": 0,
-      "Range": 5,
-      "Handling": 5,
-      "Reload": 1
-    },
-    "info": {
-      "Gun hash": 3616586446,
-      "gun name": "First in, Last out",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 2,
+        "chambered compensator": 0,
+        "corkscrew rifling": 3,
+        "extended barrel": 1,
+        "fluted barrel": 3,
+        "full bore": 2,
+        "hammer-forged rifling": 2,
+        "polygonal rifling": 1,
+        "smallbore": 2
+      },
+      "perk_2": {
+        "assault mag": 5,
+        "appended mag": 2,
+        "tactical mag": 3,
+        "extended mag": 1,
+        "steady rounds": 0,
+        "accurized rounds": 1,
+        "light mag": 3
+      },
+      "perk_3": {
+        "hip-fire grip": 0,
+        "pulse monitor": 0,
+        "auto-loading holster": 5,
+        "slideshot": 1,
+        "outlaw": 1
+      },
+      "perk_4": {
+        "demolitionist": 2,
+        "eye of the storm": 0,
+        "surrounded": 2,
+        "opening shot": 1,
+        "vorpal weapon": 5
+      },
+      "masterwork": {
+        "stability": 0,
+        "range": 5,
+        "handling": 5,
+        "reload": 1
+      },
+      "info": {
+        "gun hash": 3616586446,
+        "gun name": "first in, last out",
+        "current season": false,
+        "activity type": "pve"
+      }
+    }
+  },
+  "3653573172": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 2,
+        "chambered compensator": 1,
+        "corkscrew rifling": 2,
+        "extended barrel": 1,
+        "fluted barrel": 3,
+        "full bore": 2,
+        "hammer-forged rifling": 3,
+        "polygonal rifling": 1,
+        "smallbore": 3
+      },
+      "perk_2": {
+        "accurized rounds": 1,
+        "tactical mag": 5,
+        "extended mag": 4,
+        "steady rounds": 0,
+        "alloy magazine": 0
+      },
+      "perk_3": {
+        "quickdraw": 1,
+        "osmosis": 0,
+        "rewind rounds": 5,
+        "no distractions": 1,
+        "moving target": 1,
+        "feeding frenzy": 0
+      },
+      "perk_4": {
+        "adrenaline junkie": 0,
+        "opening shot": 0,
+        "frenzy": 5,
+        "high-impact reserves": 5,
+        "kill clip": 2,
+        "firefly": 2
+      },
+      "masterwork": {
+        "stability": 1,
+        "range": 2,
+        "handling": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 3653573172,
+        "gun name": "praedyth's revenge",
+        "current season": false,
+        "activity type": "pve",
+        "adept hash": 1987769101
+      }
     }
   },
   "3745990145": {
-    "perk_1": {
-      "ATA Scout": 1,
-      "ATB Long Range": 1,
-      "ATC Rex": 1,
-      "ATD Raptor": 2
-    },
-    "perk_2": {
-      "Accurized Rounds": 1,
-      "Drop Mag": 0,
-      "Appended Mag": 5,
-      "Tactical Mag": 2,
-      "Extended Mag": 4,
-      "Steady Rounds": 0,
-      "Alloy Magazine": 1,
-      "Flared Magwell": 1
-    },
-    "perk_3": {
-      "Hip-Fire Grip": 0,
-      "Firmly Planted": 2,
-      "Snapshot Sights": 2,
-      "Rapid Hit": 5,
-      "Threat Detector": 0,
-      "Field Prep": 4
-    },
-    "perk_4": {
-      "Triple Tap": 5,
-      "Ambitious Assassin": 0,
-      "Explosive Payload": 2,
-      "Rampage": 1,
-      "Outlaw": 1,
-      "Moving Target": 2
-    },
-    "masterwork": {
-      "Stability": 2,
-      "Range": 3,
-      "Handling": 2,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 3745990145,
-      "gun name": "Long Shadow",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "ata scout": 1,
+        "atb long range": 1,
+        "atc rex": 1,
+        "atd raptor": 2
+      },
+      "perk_2": {
+        "accurized rounds": 1,
+        "drop mag": 0,
+        "appended mag": 5,
+        "tactical mag": 2,
+        "extended mag": 4,
+        "steady rounds": 0,
+        "alloy magazine": 1,
+        "flared magwell": 1
+      },
+      "perk_3": {
+        "hip-fire grip": 0,
+        "firmly planted": 2,
+        "snapshot sights": 2,
+        "rapid hit": 5,
+        "threat detector": 0,
+        "field prep": 4
+      },
+      "perk_4": {
+        "triple tap": 5,
+        "ambitious assassin": 0,
+        "explosive payload": 2,
+        "rampage": 1,
+        "outlaw": 1,
+        "moving target": 2
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 3,
+        "handling": 2,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 3745990145,
+        "gun name": "long shadow",
+        "current season": false,
+        "activity type": "pve"
+      }
     }
   },
   "4095896073": {
-    "perk_1": {
-      "Agile Bowstring": 0,
-      "Tactile String": 2,
-      "Elastic String": 5,
-      "Flexible String": 3,
-      "High Tension String": 2,
-      "Natural String": 2,
-      "Polymer String": 4
-    },
-    "perk_2": {
-      "Carbon Arrow Shaft": 0,
-      "Compact Arrow Shaft": 2,
-      "Helical Fletching": 4,
-      "Natural Fletching": 0,
-      "Straight Fletching": 5
-    },
-    "perk_3": {
-      "Rangefinder": 0,
-      "Archer's Tempo": 5,
-      "No Distractions": 0,
-      "Quickdraw": 0
-    },
-    "perk_4": {
-      "Moving Target": 1,
-      "Explosive Head": 5,
-      "Rampage": 5,
-      "Rapid Hit": 2
-    },
-    "masterwork": {
-      "Stability": 0,
-      "Handling": 2,
-      "Reload": 0,
-      "draw_time": 5,
-      "Accuracy ": 3
-    },
-    "info": {
-      "Gun hash": 4095896073,
-      "gun name": "Accrued Redemption",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "agile bowstring": 0,
+        "tactile string": 2,
+        "elastic string": 5,
+        "flexible string": 3,
+        "high tension string": 2,
+        "natural string": 2,
+        "polymer string": 4
+      },
+      "perk_2": {
+        "carbon arrow shaft": 0,
+        "compact arrow shaft": 2,
+        "helical fletching": 4,
+        "natural fletching": 0,
+        "straight fletching": 5
+      },
+      "perk_3": {
+        "rangefinder": 0,
+        "archer's tempo": 5,
+        "no distractions": 0,
+        "quickdraw": 0
+      },
+      "perk_4": {
+        "moving target": 1,
+        "explosive head": 5,
+        "rampage": 5,
+        "rapid hit": 2
+      },
+      "masterwork": {
+        "stability": 0,
+        "handling": 2,
+        "reload": 0,
+        "draw_time": 5,
+        "accuracy": 3
+      },
+      "info": {
+        "gun hash": 4095896073,
+        "gun name": "accrued redemption",
+        "current season": false,
+        "activity type": "pve"
+      }
     }
   },
   "4156253727": {
-    "perk_1": {
-      "Arrowhead Brake": 3,
-      "Chambered Compensator": 1,
-      "Corkscrew Rifling": 4,
-      "Extended Barrel": 5,
-      "Fluted Barrel": 2,
-      "Full Bore": 4,
-      "Hammer-Forged Rifling": 4,
-      "Polygonal Rifling": 2,
-      "Smallbore": 5
-    },
-    "perk_2": {
-      "Extended Mag": 3,
-      "Alloy Magazine": 2,
-      "Appended Mag": 4,
-      "Armour Peircing Rounds": 4,
-      "High-Caliber Rounds": 2,
-      "Ricochet Rounds": 4,
-      "Flared Magwell": 3,
-      "Light Mag": 5
-    },
-    "perk_3": {
-      "Slideways": 0,
-      "Surplus": 3,
-      "Killing Wind": 1,
-      "Feeding Frenzy": 5,
-      "Moving Target": 1,
-      "Genesis": 2,
-      "Zen Moment": 3,
-      "Rangefinder": 2,
-      "Subsistence": 4,
-      "Hip-Fire Grip": 0,
-      "Slideshot": 1,
-      "Quickdraw": 1
-    },
-    "perk_4": {
-      "One For All": 3,
-      "Unrelenting": 0,
-      "Frenzy": 0,
-      "Multikill Clip": 3,
-      "Sympathetic Aresnal": 0,
-      "Dragonfly": 3,
-      "Disruption Break": 4,
-      "Opening Shot": 0,
-      "Headseeker": 1,
-      "Vorpal Weapon": 4,
-      "Rampage": 5,
-      "Elemental Capacitor": 0
-    },
-    "masterwork": {
-      "Stability": 2,
-      "Range": 3,
-      "Handling": 1,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 4156253727,
-      "gun name": "Third axiome",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 3,
+        "chambered compensator": 1,
+        "corkscrew rifling": 4,
+        "extended barrel": 5,
+        "fluted barrel": 2,
+        "full bore": 4,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "extended mag": 3,
+        "alloy magazine": 2,
+        "appended mag": 4,
+        "armor-piercing rounds": 4,
+        "high-caliber rounds": 2,
+        "ricochet rounds": 4,
+        "flared magwell": 3,
+        "light mag": 5
+      },
+      "perk_3": {
+        "slideways": 0,
+        "surplus": 3,
+        "killing wind": 1,
+        "feeding frenzy": 5,
+        "moving target": 1,
+        "genesis": 2,
+        "zen moment": 3,
+        "rangefinder": 2,
+        "subsistence": 4,
+        "hip-fire grip": 0,
+        "slideshot": 1,
+        "quickdraw": 1
+      },
+      "perk_4": {
+        "one for all": 3,
+        "unrelenting": 0,
+        "frenzy": 0,
+        "multikill clip": 3,
+        "sympathetic arsenal": 0,
+        "dragonfly": 3,
+        "disruption break": 4,
+        "opening shot": 0,
+        "headseeker": 1,
+        "vorpal weapon": 4,
+        "rampage": 5,
+        "elemental capacitor": 0
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 3,
+        "handling": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 4156253727,
+        "gun name": "third axiome",
+        "current season": false,
+        "activity type": "pve"
+      }
     }
   },
   "4248569242": {
-    "perk_1": {
-      "Arrowhead Brake": 2,
-      "Chambered Compensator": 0,
-      "Corkscrew Rifling": 3,
-      "Extended Barrel": 1,
-      "Fluted Barrel": 3,
-      "Full Bore": 2,
-      "Hammer-Forged Rifling": 2,
-      "Polygonal Rifling": 1,
-      "Smallbore": 2
-    },
-    "perk_2": {
-      "Assault Mag": 5,
-      "Appended Mag": 2,
-      "Tactical Mag": 3,
-      "Extended Mag": 1,
-      "Steady Rounds": 0,
-      "Accurized Rounds": 1,
-      "Light Mag": 2
-    },
-    "perk_3": {
-      "Hip-Fire Grip": 0,
-      "Reconstruction": 5,
-      "Auto-Loading Holster": 4,
-      "Dual Loader": 1,
-      "Slideshot": 1,
-      "Outlaw": 1
-    },
-    "perk_4": {
-      "Killing Wind": 0,
-      "Thresh": 0,
-      "Unrelenting": 0,
-      "Recombination": 5,
-      "Snapshot Sights": 1,
-      "Moving Target": 1
-    },
-    "masterwork": {
-      "Stability": 0,
-      "Range": 5,
-      "Handling": 4,
-      "Reload": 2
-    },
-    "info": {
-      "Gun hash": 4248569242,
-      "gun name": "Heritage",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 2,
+        "chambered compensator": 0,
+        "corkscrew rifling": 3,
+        "extended barrel": 1,
+        "fluted barrel": 3,
+        "full bore": 2,
+        "hammer-forged rifling": 2,
+        "polygonal rifling": 1,
+        "smallbore": 2
+      },
+      "perk_2": {
+        "assault mag": 5,
+        "appended mag": 2,
+        "tactical mag": 3,
+        "extended mag": 1,
+        "steady rounds": 0,
+        "accurized rounds": 1,
+        "light mag": 2
+      },
+      "perk_3": {
+        "hip-fire grip": 0,
+        "reconstruction": 5,
+        "auto-loading holster": 4,
+        "dual loader": 1,
+        "slideshot": 1,
+        "outlaw": 1
+      },
+      "perk_4": {
+        "killing wind": 0,
+        "thresh": 0,
+        "unrelenting": 0,
+        "recombination": 5,
+        "snapshot sights": 1,
+        "moving target": 1
+      },
+      "masterwork": {
+        "stability": 0,
+        "range": 5,
+        "handling": 4,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 4248569242,
+        "gun name": "heritage",
+        "current season": false,
+        "activity type": "pve"
+      }
+    }
+  },
+  "4255171531": {
+    "pve": {
+      "perk_1": {
+        "volatile launch": 1,
+        "confined launch": 0,
+        "countermass": 1,
+        "hard launch": 5,
+        "linear compensator": 3,
+        "quick launch": 5,
+        "smart drift control": 4
+      },
+      "perk_2": {
+        "alloy casing": 5,
+        "black powder": 1,
+        "high-velocity rounds": 4,
+        "implosion rounds": 0,
+        "impact casing": 5
+      },
+      "perk_3": {
+        "ensemble": 5,
+        "tracking module": 3,
+        "field prep": 4,
+        "quickdraw": 1,
+        "threat detector": 1,
+        "demolitionist": 5
+      },
+      "perk_4": {
+        "clown cartridge": 4,
+        "vorpal weapon": 5,
+        "danger zone": 0,
+        "thresh": 1,
+        "explosive light": 5,
+        "adrenaline junkie": 2
+      },
+      "masterwork": {
+        "stability": 1,
+        "handling": 2,
+        "reload": 3,
+        "blast_radius": 1,
+        "projectile_speed": 4
+      },
+      "info": {
+        "gun hash": 4255171531,
+        "gun name": "the hothead",
+        "current season": true,
+        "activity type": "pve",
+        "adept hash": 1866778462
+      }
     }
   },
   "4255586669": {
-    "perk_1": {
-      "Volatile Launch": 0,
-      "Confined Launch": 0,
-      "Countermass": 0,
-      "Hard Launch": 4,
-      "Linear Compensator": 2,
-      "Quick Launch": 4,
-      "Smart Drift Control": 2
-    },
-    "perk_2": {
-      "Blinding Grenades": 5,
-      "Proximity Grenades": 1,
-      "Spike Grenades": 5,
-      "High-Velocity Rounds": 2,
-      "Implosion Rounds": 1,
-      "Concussion Grenades": 2
-    },
-    "perk_3": {
-      "Quickdraw": 0,
-      "Surplus": 0,
-      "Genesis": 1,
-      "Feeding Frenzy": 3,
-      "Auto-Loading Holster": 5,
-      "Lead From Gold": 2,
-      "Threat Detector": 0,
-      "Ambitious Assassin": 5,
-      "Field Prep": 1,
-      "Underdog": 0
-    },
-    "perk_4": {
-      "Disruption Break": 5,
-      "Multikill Clip": 3,
-      "Unrelenting": 0,
-      "Snapshot Sights": 0,
-      "Danger Zone": 0,
-      "Demolitionist": 5,
-      "Vorpal Weapon": 5,
-      "Swashbuckler": 2,
-      "One For All": 5,
-      "Thresh": 1
-    },
-    "masterwork": {
-      "Stability": 0,
-      "Reload": 2,
-      "Handling": 2,
-      "blast_radius": 2,
-      "projectile_speed": 3
-    },
-    "info": {
-      "Gun hash": 4255586669,
-      "gun name": "Empty Vessel",
-      "current season": true
+    "pve": {
+      "perk_1": {
+        "volatile launch": 0,
+        "confined launch": 0,
+        "countermass": 0,
+        "hard launch": 4,
+        "linear compensator": 2,
+        "quick launch": 4,
+        "smart drift control": 2
+      },
+      "perk_2": {
+        "blinding grenades": 5,
+        "proximity grenades": 1,
+        "spike grenades": 5,
+        "high-velocity rounds": 2,
+        "implosion rounds": 1,
+        "concussion grenades": 2
+      },
+      "perk_3": {
+        "quickdraw": 0,
+        "surplus": 0,
+        "genesis": 1,
+        "feeding frenzy": 3,
+        "auto-loading holster": 5,
+        "lead from gold": 2,
+        "threat detector": 0,
+        "ambitious assassin": 5,
+        "field prep": 1,
+        "underdog": 0
+      },
+      "perk_4": {
+        "disruption break": 5,
+        "multikill clip": 3,
+        "unrelenting": 0,
+        "snapshot sights": 0,
+        "danger zone": 0,
+        "demolitionist": 5,
+        "vorpal weapon": 5,
+        "swashbuckler": 2,
+        "one for all": 5,
+        "thresh": 1
+      },
+      "masterwork": {
+        "stability": 0,
+        "reload": 2,
+        "handling": 2,
+        "blast_radius": 2,
+        "projectile_speed": 3
+      },
+      "info": {
+        "gun hash": 4255586669,
+        "gun name": "empty vessel",
+        "current season": false,
+        "activity type": "pve"
+      }
+    }
+  },
+  "4281371574": {
+    "pve": {
+      "perk_1": {
+        "arrowhead brake": 3,
+        "chambered compensator": 1,
+        "corkscrew rifling": 4,
+        "extended barrel": 5,
+        "fluted barrel": 2,
+        "full bore": 4,
+        "hammer-forged rifling": 4,
+        "polygonal rifling": 2,
+        "smallbore": 5
+      },
+      "perk_2": {
+        "accurized rounds": 3,
+        "appended mag": 3,
+        "tactical mag": 5,
+        "extended mag": 4,
+        "steady rounds": 1,
+        "alloy magazine": 1,
+        "flared magwell": 3
+      },
+      "perk_3": {
+        "subsistence": 4,
+        "moving target": 0,
+        "rapid hit": 5,
+        "heating up": 3,
+        "bottomless grief": 2,
+        "surplus": 0
+      },
+      "perk_4": {
+        "adrenaline junkie": 0,
+        "box breathing": 0,
+        "explosive payload": 5,
+        "wellspring": 0,
+        "one for all": 3,
+        "firefly": 5
+      },
+      "masterwork": {
+        "stability": 2,
+        "range": 3,
+        "handling": 1,
+        "reload": 2
+      },
+      "info": {
+        "gun hash": 4281371574,
+        "gun name": "hung jury",
+        "current season": false,
+        "activity type": "pve",
+        "adept hash": 681067419
+      }
     }
   }
 }
