@@ -10,16 +10,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
     <title>
       DaPoliceman.co.uk
     </title>
-
   </head>
 
-
-  <body>
-
+  <body id="canvas1">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" >DaPoliceman.co.uk</a>
@@ -47,7 +43,6 @@
                 <li><a class="dropdown-item" href="https://dapoliceman.co.uk/godrollRater/">Godroll rater</a></li>
                 <li><hr class="dropdown-divider" style="background-color: #e3f2fd;"></li>
                 <li><a class="dropdown-item" href="https://dapoliceman.co.uk/isGroundedOn/">Is Grounded on</a></li>
-                <li><a class="dropdown-item" href="https://dapoliceman.co.uk/floatingHead/">Embrace Hunter</a></li>
                 <li><a class="dropdown-item" href="https://dapoliceman.co.uk/AtheonCallouts/">Atheon Callouts</a></li>
               </ul>
             </li>
@@ -59,7 +54,7 @@
         </div>
       </div>
     </nav>
-    <canvas id = "canvas1"></canvas>
+    <canvas id=""></canvas>
     <div id=overlay>
       <div class="container">
         <br>
@@ -84,7 +79,7 @@
             <div id="RecentDisplay" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#RecentDisplay" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-
+                <button type="button" data-bs-target="#RecentDisplay" data-bs-slide-to="1" aria-label="Slide 2"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -96,7 +91,15 @@
                     <p>My first use of authenticated bungie api calls, looks at your inventory and rates your guns!</p>
                   </div>
                 </div>
-
+                <div class="carousel-item">
+                  <a href="https://dapoliceman.co.uk/vod-info/">
+                    <img class="mx-auto d-block w-100"  src="https://www.bungie.net/common/destiny2_content/icons/2c22568a474ce607d7f3b0e4f1960ff0.png"  alt="grounded icon">
+                  </a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>VoD Info</h5>
+                    <p>A collection of helpful infographics for when you're teaching the vow of the disciple raid.</p>
+                  </div>
+                </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#RecentDisplay" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -117,7 +120,6 @@
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#OldDisplay" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#OldDisplay" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#OldDisplay" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
               <div class="carousel-inner"  >
                 <div class="carousel-item active">
@@ -129,23 +131,14 @@
                     <p>My first web dev project, for when your vault of glass runs are going too smoothly.</p>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <a href="https://dapoliceman.co.uk/floatingHead/">
-                    <img class="mx-auto d-block w-100" src="assets/embraceHunterIcon.gif"   alt="embrace hunter icon">
-                  </a>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Embrace hunter</h5>
-                    <p>Reject other classes, embrace</p>
-                    <p>h u n t e r.</p>
-                  </div>
-                </div>
+
                 <div class="carousel-item">
                   <a href="https://dapoliceman.co.uk/isGroundedOn/">
                     <img class="mx-auto d-block w-100"  src="https://www.bungie.net/common/destiny2_content/icons/8c11fd95a108f6680dd030328d04c1bf.png"  alt="grounded icon">
                   </a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Is Grounded on</h5>
-                    <p>My first proper dive into the bunie API, lets you know when the worst modifier is on in strikes.</p>
+                    <p>My first proper dive into the bungie API, lets you know when the worst modifier is on in strikes.</p>
                   </div>
                 </div>
               </div>
@@ -171,3 +164,19 @@
 
   </body>
 </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+<script>
+VANTA.TOPOLOGY({
+  el: "#canvas1",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xcef7,
+  backgroundColor: 0x2023d
+})
+</script>

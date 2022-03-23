@@ -1,7 +1,8 @@
 import Header from './components/Header.js'
 import React, { useState, useEffect } from 'react'
 import getLeaderboard from './components/script.js'
-import LeaderboardDisplay from './components/LeaderboardDisplay.js'
+import './components/style.css'
+import ArchiveHandler from './components/ArchiveHandler'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,16 +10,15 @@ import season1 from './archive/season1.json';
 
 
 function App() {
-  const [currentLeaderboardInfo, setCurrentLeaderboardInfo]
-                                              = useState()
-  const [leaderboardInfo, setLeaderboardInfo] = useState()
-  const [devMode, setDevMode]                 = useState()
-  const [currentGunInfo, setCurrentGunInfo]   = useState()
-  const [gunInfo, setGunInfo]                 = useState()
-  const [isLoaded, setIsLoaded]               = useState(false)
-  const [colourblindMode, setColourblindMode] = useState(false)
-  const [displayAllScores, setDisplayAllScores]=useState(false)
-  const [permittedPlayers]                    = useState([
+  const [currentLeaderboardInfo, setCurrentLeaderboardInfo] = useState() // non archived leaderboard info, from api
+  const [leaderboardInfo, setLeaderboardInfo]               = useState() // current leaderboard to display
+  const [devMode, setDevMode]                               = useState(false)
+  const [gunInfo, setGunInfo]                               = useState() // deprecated, used only for season 1
+  const [isLoaded, setIsLoaded]                             = useState(false)
+  const [colourblindMode, setColourblindMode]               = useState(false)
+  const [displayAllScores, setDisplayAllScores]             = useState(false)
+  const [leaderboardSelection, setLeaderboardSelection]     = useState("current")
+  const [permittedPlayers]                                  = useState([
     "4611686018462309220",//  RCG_Josh
     "4611686018483122657",//  Doozer
     "4611686018484827478",//  Pkmt1234
@@ -32,34 +32,30 @@ function App() {
     "4611686018484075688",//  WeirdNoodle
     "4611686018497753585",//  FtpApoc
     "4611686018482875471",//  Tweety
-    "4611686018486567832",//  Vulcan 
+    "4611686018486567832",//  Vulcan
   ])
 
   useEffect(() => {
-    console.log("season1",season1)
     getLeaderboard()
     .then(response => {
-    setCurrentLeaderboardInfo(response[0])
-    setLeaderboardInfo(response[0])
-    setCurrentGunInfo(response[1])
-    setGunInfo(response[1])
+    setCurrentLeaderboardInfo(response)
+
+    setLeaderboardInfo(response)
     setIsLoaded(true)
-    let output = {}
-    output["users"] = response[0]
-    output["GunInfo"] = response[1]
-    console.log("current: ", output)
     })
   }, [])
 
   const SelectLeaderboard = (selection) => {
     if (selection === "current"){
       setLeaderboardInfo(currentLeaderboardInfo)
-      setGunInfo(currentGunInfo)
+      setLeaderboardSelection("current")
+      console.log("2")
     }
-    else {
-    console.log(selection)
+    else if (selection === "season1") {
       setLeaderboardInfo(season1.users)
       setGunInfo(season1.GunInfo)
+      setLeaderboardSelection("season1")
+      console.log("1")
     }
   }
 
@@ -73,15 +69,16 @@ function App() {
         SelectLeaderboard={SelectLeaderboard}
 
       />
-
-      {isLoaded && <LeaderboardDisplay
+      {isLoaded && <ArchiveHandler
                       colourblindMode={colourblindMode}
                       leaderboardInfo={leaderboardInfo}
                       gunInfo={gunInfo}
                       permittedPlayers={permittedPlayers}
                       displayAllScores={displayAllScores}
                       devMode={devMode}
+                      leaderboardSelection={leaderboardSelection}
                     />}
+
     </div>
   );
 }

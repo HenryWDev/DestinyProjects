@@ -1,33 +1,19 @@
 var apiLink = "https://3gmks9uzn3.execute-api.eu-west-2.amazonaws.com/default/Leaderboard"
-
 var api_key = '0a1471885265447e9b9c2d23c50f285c';
 
 
-var gunInfo = {}
-var displayNames = {}
-var hashList = []
-var ordered_players = []
 
 
-
-
-async function loadInfo(hashList, players){
-  await Promise.all(hashList.map(async (hash) => {
-    let result = await (makeAPICall(true, `/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/${hash}/`));
-    gunInfo[hash] = result["Response"]["displayProperties"]
-  }));
-
+async function GetNames(players){
   var temp_mapping = []
   for (var player in players){
-    temp_mapping.push([player, players[player]["membership_info"]["membership_type"]])
+    temp_mapping.push([player, players[player].user_info.membership_id])
   };
-
   await Promise.all(temp_mapping.map(async (player) => {
     let result = await makeAPICall(true, `/Platform/Destiny2/${player[1]}/Profile/${player[0]}/?components=100`)
-    displayNames[player[0]] = result["Response"]["profile"]["data"]["userInfo"]["displayName"]
+    players[player[0]].user_info.display_name = result["Response"]["profile"]["data"]["userInfo"]["displayName"]
     return player
   }));
-
 }
 
 
@@ -38,42 +24,50 @@ async function main(){
 
   // gets the related variables into their needed arrays
   var players = response["scores"]
+  await GetNames(players)
 
-  for(var rolls in players){
-      for(var hash in players[rolls]["roll_scores"]){
-        hashList.push(hash);
-      }
-      break;
-  }
 
-  await loadInfo(hashList, players);
-
-  // loads each row one at a time
-  for(var player in players){
-    var total_score = 0;
-    var total_roll_score = 0;
-    if (typeof players[player]["roll_scores"]["304659313"] == "object"){
-      for (let roll in players[player]["roll_scores"])
-      {
-        total_score += players[player]["roll_scores"][roll][0];
-        total_roll_score += players[player]["roll_scores"][roll][1];
-        players[player]["roll_scores"][roll] = players[player]["roll_scores"][roll][0]
+  // get each unique hash to make the weapons line up on each line
+  let weapon_hashes = [];
+  for (let player in players){
+    for (let weapon_hash in players[player].roll_scores){
+      for (let activity_type in players[player].roll_scores[weapon_hash]){
+        let stringify_a = JSON.stringify(weapon_hashes);
+        let stringify_b = JSON.stringify([weapon_hash, activity_type]);
+        if(stringify_a.indexOf(stringify_b) === -1){
+          weapon_hashes.push([weapon_hash, activity_type])
+        }
       }
     }
-    else {
-      for (let roll in players[player]["roll_scores"])
-      {
-        total_score += players[player]["roll_scores"][roll];
-      }
-      total_roll_score = 0;
-    }
-
-
-    ordered_players.push({"total_roll_score": total_roll_score, "total_score": total_score, 'player_name': displayNames[player], "roll_scores": players[player]["roll_scores"], "player_hash": player})
   }
-  return ordered_players
+
+  let output = {}
+
+  let player_array = []
+
+  console.log(players)
+  for (let [hash, scores] of Object.entries(players)){
+    player_array.push([hash, scores])
+  }
+
+  player_array.sort(sort_players)
+
+  output["players"] = player_array
+  output["weapon_hashes"] = weapon_hashes
+  return output
 }
 
+function sort_players(a,b){
+  if ( a[1].user_info.total_balanced_score === b[1].user_info.total_balanced_score ){
+    return 0;
+  }
+  if ( a[1].user_info.total_balanced_score < b[1].user_info.total_balanced_score ){
+    return 1;
+  }
+  if ( a[1].user_info.total_balanced_score > b[1].user_info.total_balanced_score ){
+    return -1;
+  }
+}
 
 async function makeAPICall(bungieCall, link) {
   if (bungieCall){
@@ -95,14 +89,6 @@ async function makeAPICall(bungieCall, link) {
 export default async function getLeaderboard(){
   let returnedLeaderboardInfo = await main()
 
-  returnedLeaderboardInfo.sort(function(first, second) {
-    return second.total_roll_score - first.total_roll_score;
-  });
-
-  returnedLeaderboardInfo.sort(function(first, second) {
-    return second.total_score - first.total_score;
-  });
-  console.log(returnedLeaderboardInfo)
-  let returnedGunInfo = gunInfo
-  return [returnedLeaderboardInfo, returnedGunInfo]
+  console.log("result: ", returnedLeaderboardInfo)
+  return returnedLeaderboardInfo
 }

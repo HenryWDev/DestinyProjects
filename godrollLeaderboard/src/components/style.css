@@ -33,9 +33,13 @@
 }
 
 .imagebox {
-  white-space: nowrap;
+
+  width: 70px;
 }
 
+.popoverImage {
+  width: 50px
+}
 
 .colourdisplay {
   height: 30px;
