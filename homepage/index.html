@@ -43,6 +43,7 @@
                 <li><a class="dropdown-item" href="https://dapoliceman.co.uk/godrollRater/">Godroll rater</a></li>
                 <li><hr class="dropdown-divider" style="background-color: #e3f2fd;"></li>
                 <li><a class="dropdown-item" href="https://dapoliceman.co.uk/isGroundedOn/">Is Grounded on</a></li>
+                <li><a class="dropdown-item" href="https://dapoliceman.co.uk/floatingHead/">Embrace Hunter</a></li>
                 <li><a class="dropdown-item" href="https://dapoliceman.co.uk/AtheonCallouts/">Atheon Callouts</a></li>
               </ul>
             </li>
@@ -67,7 +68,7 @@
               These projects can be seen below or in the projects tab above.
             </p>
             <p>
-              If youd like to check out any of my code for these projects you can see it on my <a class="githubLink" href="https://github.com/DaPoliceman/DestinyProjects"><b>github!</b></a>
+              If you'd like to check out any of my code for these projects you can see it on my <a class="githubLink" href="https://github.com/DaPoliceman/DestinyProjects"><b>github!</b></a>
             </p>>
           </div>
         </div>
@@ -164,10 +165,10 @@
 
   </body>
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+<script src="three.min.js"></script>
+<script src="vanta.birds.min.js"></script>
 <script>
-VANTA.TOPOLOGY({
+VANTA.BIRDS({
   el: "#canvas1",
   mouseControls: true,
   touchControls: true,
@@ -176,7 +177,10 @@ VANTA.TOPOLOGY({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0xcef7,
-  backgroundColor: 0x2023d
+  backgroundColor: 0x10,
+  color2: 0x12cfe5,
+
+  speedLimit: 4.00,
+
 })
 </script>

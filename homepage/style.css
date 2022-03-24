@@ -1,6 +1,6 @@
 body {
-  background-color: #00001C;
-  color: white;
+  background-color: #cef7;
+  color: black;
 
 }
 
@@ -24,6 +24,10 @@ img {
   border-radius: 25px;
   padding: 10px;
 
+}
+
+.body{
+  color: black;
 }
 
 p {
