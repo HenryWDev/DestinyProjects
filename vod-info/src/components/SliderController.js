@@ -23,7 +23,7 @@ const darkTheme = createTheme({
 
 const steps = ['Acquisition', 'Caretaker', 'Exhibition', 'Rhulk'];
 
-const SliderController = ({showSymbols}) => {
+const SliderController = ({showSymbols, aussieCallouts}) => {
   const [activeStep, setActiveStep] = React.useState(0);
 
   const handleNext = () => {
@@ -70,10 +70,10 @@ const SliderController = ({showSymbols}) => {
       <Box sx={{ width: '100%'}}>
         {
           {
-            '0': <Acquisition showSymbols={showSymbols}/>,
-            '1': <Caretaker showSymbols={showSymbols}/>,
-            '2': <Exhibition showSymbols={showSymbols}/>,
-            '3': <Rhulk showSymbols={showSymbols}/>
+            '0': <Acquisition showSymbols={showSymbols} aussieCallouts={aussieCallouts}/>,
+            '1': <Caretaker showSymbols={showSymbols} aussieCallouts={aussieCallouts}/>,
+            '2': <Exhibition showSymbols={showSymbols} aussieCallouts={aussieCallouts}/>,
+            '3': <Rhulk showSymbols={showSymbols} aussieCallouts={aussieCallouts}/>
           }[activeStep]
         }
       </Box>

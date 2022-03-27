@@ -1,16 +1,33 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Main_Infographic from './AquisitionResources/main_infographic.png'
 import LootDrawer from './LootDrawer'
 import Symbols from './GeneralResources/symbols.jpg'
+import ImageContainer from './ImageContainer.js'
+import AussieSymbols from './GeneralResources/bona_callouts.png'
 
-const Acquisition = ({showSymbols}) => {
+const Acquisition = ({showSymbols, aussieCallouts}) => {
   return (
-    <div>
-      <LootDrawer image_number={0}/>
-      <div class="imagecontainer">
-        <img class="mainImage" src={Main_Infographic}/>
-        {showSymbols ? <img class="mainImage" src={Symbols}/> : ''}
+    <div >
+      <LootDrawer image_number={0} aussieCallouts={aussieCallouts}/>
+      <div className="imagediv">
+          {
+            aussieCallouts ?
+            <ImageContainer image={Main_Infographic} aussieCallouts={aussieCallouts}/>
+            :
+            <ImageContainer image={Main_Infographic} aussieCallouts={aussieCallouts}/>
+          }
+
+          {showSymbols ?
+            <>
+              {
+                aussieCallouts ?
+                <ImageContainer image={Symbols} aussieCallouts={aussieCallouts}/>
+                :
+                <ImageContainer image={AussieSymbols} aussieCallouts={aussieCallouts}/>
+              }
+            </>
+            : ''
+          }
       </div>
 
     </div>

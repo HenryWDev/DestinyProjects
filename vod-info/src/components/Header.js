@@ -21,7 +21,7 @@ const darkTheme = createTheme({
   },
 });
 
-const Header = ({toggleSymbols}) => {
+const Header = ({toggleSymbols, toggleAussie}) => {
   const [open, setOpen] = React.useState(false);
   const handleToggle = () => {
     setOpen(!open);
@@ -39,10 +39,11 @@ const Header = ({toggleSymbols}) => {
       <AppBar fill="true" bg="dark"  variant="dark" fixed="top">
         <Toolbar>
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-            vow of the disciple Info
+            Vow of the Disciple Info
           </Typography>
-          <Button onClick={toggleSymbols}>toggle permenant symbols</Button>
-          <Button onClick={handleToggle}>bonus chest symbols</Button>
+          <Button onClick={toggleAussie}>Toggle Aussie Callouts</Button>
+          <Button onClick={toggleSymbols}>Toggle Permenant Symbols</Button>
+          <Button onClick={handleToggle}>Bonus Chest Symbols</Button>
 
         </Toolbar>
       </AppBar>
@@ -52,7 +53,7 @@ const Header = ({toggleSymbols}) => {
         open={open}
         onClick={handleClose}
       >
-      <img class="mainImage" src={BonusChest}/>
+      <img class="BonusChest" src={BonusChest}/>
     </Backdrop>
   </ThemeProvider>
   );
