@@ -169,7 +169,8 @@ const WeaponsManager = ({addWeapon, exportAllRolls}) => {
       weapon_dict[weapon_id]["is_pve_roll"] = 0
       weapon_dict[weapon_id]["description"] = ""
       console.log(weapon_dict)
-      addWeapon(weapon_dict)
+
+      addWeapon(JSON.parse(JSON.stringify(weapon_dict)))
     }
   }
 

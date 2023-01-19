@@ -17,10 +17,10 @@ const WeaponDisplay = ({weapon_dict, index, deleteWeapon}) => {
   const [opened, setOpen] = useState(false);
   const [notes, setNotes] = useState('');
 
+  
   useEffect(() => {
     weapon_dict[index]["description"] = notes
   }, [notes]);
-
 
   let activity_states = ['', 'bg-gradient-to-r from-cyan-500 to-blue-500']
   let perk_states = ['', 'bg-gradient-to-r from-amber-700 to-amber-900', 'bg-gradient-to-r from-gray-700 to-gray-800', 'bg-gradient-to-r from-yellow-600 to-amber-400']

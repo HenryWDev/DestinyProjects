@@ -10,9 +10,13 @@ function App() {
   const [change_state, set_change_state] = useState(false);
 
   function addWeapon(weaponDict){
+    console.log("a", weaponDict)
+    console.log("b", weaponDict[Object.keys(weaponDict)[0]])
+    let new_dict = {...weaponDict[Object.keys(weaponDict)[0]]}
+    // Object.assign(new_dict, weaponDict[Object.keys(weaponDict)[0]])
     let indexed_weapon_key = counter + ":" + Object.keys(weaponDict)[0]
     let updated_weapon_index = weapon_index
-    updated_weapon_index[indexed_weapon_key] = weaponDict[Object.keys(weaponDict)[0]]
+    updated_weapon_index[indexed_weapon_key] = new_dict
     set_weapon_index(updated_weapon_index)
     set_counter(counter + 1)
   }

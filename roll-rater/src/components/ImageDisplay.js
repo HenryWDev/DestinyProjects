@@ -10,7 +10,6 @@ const ImageDisplay = ({size, link, alt, text, text_style, states, weapon_dict, i
   const [opened, setOpen] = useState(false);
   const [state, setState] = useState(0)
 
-
   useEffect(() => {
     if (base_path.length !== 0){
       setState(weapon_dict[index][base_path[0]][base_path[1]][path])
@@ -23,14 +22,17 @@ const ImageDisplay = ({size, link, alt, text, text_style, states, weapon_dict, i
 
 
   function changeState(){
+    console.log(weapon_dict)
     if (state == states.length - 1){
       setState(0)
 
       if (base_path.length !== 0){
+        console.log(index+path)
         weapon_dict[index][base_path[0]][base_path[1]][path] = 0
 
       }
       else{
+        console.log(index+path)
         weapon_dict[index][path] = 0
       }
     }
@@ -38,10 +40,12 @@ const ImageDisplay = ({size, link, alt, text, text_style, states, weapon_dict, i
       setState(state + 1);
 
       if (base_path.length !== 0){
+        console.log(index+path)
         weapon_dict[index][base_path[0]][base_path[1]][path] = state + 1
 
       }
       else{
+        console.log(index+path)
         weapon_dict[index][path] = state + 1
       }
     }
