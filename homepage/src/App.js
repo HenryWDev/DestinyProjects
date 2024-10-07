@@ -175,8 +175,8 @@ function App() {
             { maxWidth: 755, cols: 2 },
             { maxWidth: 600, cols: 1 },
           ]}>
-          <Container  style={{"width" : "100%"}} className="bg-zinc-900/75">
-            <p className="text-center font-mono text-xl">
+          <Container  style={{"width" : "100%"}} className="bg-zinc-900/90 pt-4">
+            <p className="text-center font-mono text-[24px]">
               New Projects
             </p>
             <Carousel className="pt-5">
@@ -202,7 +202,7 @@ function App() {
                   <Center className="mb-3">
                     <img
                       className="w-20 pb-32"
-                      src="https://bungie.net/common/destiny2_content/icons/dbf2dd79d085717b0c76b47388e80c47.png"
+                      src="https://www.bungie.net/common/destiny2_content/icons/2b24779c60f73bd56f0629cc797428e3.png"
                       alt="roll chaser"
                     />
                   </Center>
@@ -218,7 +218,7 @@ function App() {
                   <Center className="mb-3">
                     <img
                       className="w-20 pb-32"
-                      src="https://bungie.net/common/destiny2_content/icons/5a90815a3600626978102d6c6ba3582f.png"
+                      src="https://bungie.net/common/destiny2_content/icons/b84b6ea72dd05de7123aa2ae87ba0d6a.png"
                       alt="Vow Info"
                     />
                   </Center>
@@ -231,8 +231,8 @@ function App() {
 
             </Carousel>
           </Container>
-          <Container style={{"width" : "100%"}} className="bg-zinc-900/75 ">
-            <p className="text-center font-mono text-xl">
+          <Container  style={{"width" : "100%"}} className="bg-zinc-900/90 pt-4">
+            <p className="text-center font-mono text-[24px]">
               Old Projects
             </p>
             <Carousel className="pt-5">
@@ -242,7 +242,7 @@ function App() {
                   <Center className="mb-3">
                     <img
                       className="w-20 pb-32"
-                      src="https://bungie.net/common/destiny2_content/icons/2565ae54801563abfefd78f8c2dd6463.png"
+                      src="https://www.bungie.net/common/destiny2_content/icons/ceb26dbc0191c695ccc712c81385a9ee.png"
                       alt="Atheon Callouts"
                     />
                   </Center>
@@ -258,7 +258,7 @@ function App() {
                   <Center className="mb-3">
                     <img
                       className="w-20 pb-32"
-                      src="https://www.bungie.net/common/destiny2_content/icons/6d091410227eef82138a162df73065b9.png"
+                      src="https://www.bungie.net/common/destiny2_content/icons/DestinyMilestoneDefinition_44a010ae763cd975d56c632ff72c48a1.png"
                       alt="Atheon Callouts"
                     />
                   </Center>
@@ -274,7 +274,7 @@ function App() {
                   <Center className="mb-3">
                     <img
                       className="w-20 pb-32"
-                      src="https://www.bungie.net/common/destiny2_content/icons/8c11fd95a108f6680dd030328d04c1bf.png"
+                      src="https://www.bungie.net/common/destiny2_content/icons/99e3248067917cc86cb76b1f89d7fbc1.png"
                       alt="Atheon Callouts"
                     />
                   </Center>
